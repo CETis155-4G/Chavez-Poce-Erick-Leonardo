@@ -1,13 +1,77 @@
 html{
-  font-size:28px;
-  font-family: "Open Sans", sans-serif;
-}
-h1{
+    font-size:28px;
+    font-family: "Open Sans", sans-serif;
+  }
+  h1{
+      font-size: 60px;
+      color: gray;
+      text-align: center;
+  }
+  h2,h1{
     font-size: 60px;
+    color:#0066FF;
     text-align: center;
+  }
+  p{
+      font-size: 16px;
+      line-height: 2;
+      letter-spacing: 1px;
+      text-align: justify;
+      color: black;
+  }
+  k{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    /*cambiar tipigrafia*/
+    font-family:helvetica;
+    /*color de el fondo */
+    background: #f4f4f4;
+    text-align: justify;
+  }
+  /*configuracion del menu previamente creado en el html*/
+  .menu{
+     /*sin estilo*/
+    list-style: none;
+    /*margen*/
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+  }
+ .menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+ }
+ .menu li {
+    display: inline-block;
+    text-align: center;
+ }
+ .menu li a:hover{
+    background: #ef8354;
+ }
+ div{
+    color:#3384ff;
+ }
+img{
+    height: 200;
+    width: 200;
 }
-p{
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
+.gatillo{
+    height:200vh;
+
 }
+.gatillo img{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    object-fit: cover;
+    object-position: 0 bottom;
+}
+ 
+ 
