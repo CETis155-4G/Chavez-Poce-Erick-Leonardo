@@ -19,11 +19,6 @@ html{
       text-align: justify;
       color: black;
   }
-  k{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
   body{
     /*cambiar tipigrafia*/
     font-family:helvetica;
@@ -59,19 +54,9 @@ html{
     color:#3384ff;
  }
 img{
-    height: 200;
-    width: 200;
+    height: 110px;
+    width: 110px;
 }
-.gatillo{
-    height:200vh;
 
-}
-.gatillo img{
-    width: 100%;
-    height: 100%;
-    vertical-align: top;
-    object-fit: cover;
-    object-position: 0 bottom;
-}
- 
+
  
