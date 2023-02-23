@@ -4,13 +4,14 @@ html{
   }
   h1{
       font-size: 60px;
-      color: gray;
+      color: #0066FF;
       text-align: center;
   }
-  h2,h1{
+  h2{
     font-size: 60px;
-    color:#0066FF;
+    color: white;
     text-align: center;
+    background-color: #0066FF;
   }
   p{
       font-size: 16px;
